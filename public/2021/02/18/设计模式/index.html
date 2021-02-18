@@ -22,7 +22,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>前端进阶之路 - 倔强的乌龟</title>
+  <title>倔强的乌龟</title>
   
 
   
@@ -438,67 +438,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
     
-      <h1 class="title">
-        前端进阶之路
-      </h1>
-      <div class='new-meta-box'>
-        
-          
-            
-<div class='new-meta-item author'>
-  <a class='author' href="/" rel="nofollow">
-    <img no-lazy src="">
-    <p>请设置文章作者</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-
-          
-        
-          
-            <div class="new-meta-item date">
-  <a class='notlink'>
-    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：Feb 9, 2021</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  <div class="new-meta-item browse leancloud">
-    <a class='notlink'>
-      
-      <div id="lc-pv" data-title="前端进阶之路" data-path="/2021/02/09/README/">
-        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
-        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
-        次浏览
-      </div>
-    </a>
-  </div>
-
-
-          
-        
-      </div>
-    
   </div>
 
 
   
   
-  <h2 id="前端进阶之路"><a href="#前端进阶之路" class="headerlink" title="前端进阶之路"></a>前端进阶之路</h2><p>本系列是个人一些学习的笔记，大家想学习的话可以去看我下面的参看的资料。</p>
-<p>然后也有一些源码和源码解析。<br>最后是造轮子，毕竟实践才是检验真理的唯一标准。<br>不过造轮子不是一步而咎的事情，我也是一边摸索一边前进，后续可能会单独拆成一个仓库。<br>如果你有什么建议或者反馈，欢迎提问。<br>最后点个赞吧，比心～</p>
-<p>特别感谢以下所有大佬：<br>本文很多学习路径是参考ssh大佬的(<a target="_blank" rel="noopener" href="https://github.com/sl1673495/frontend-advantage-roadmap">https://github.com/sl1673495/frontend-advantage-roadmap</a><br>)。</p>
-<p>日常学习主要有：<br>    github 不用多说来<br>    InfoQ 最近关注到的 文章质量普遍较高<br>    掘金<br>    知乎</p>
-<p>图灵社区：<a target="_blank" rel="noopener" href="https://m.ituring.com.cn/">https://m.ituring.com.cn/</a></p>
-<p>Node学习自 朴灵大佬的深入浅出node.js</p>
-<p>设计模式学习自 增探大佬的JavaScript设计模式与开发实践</p>
+  <h2 id="我们为什么要用到设计模式？"><a href="#我们为什么要用到设计模式？" class="headerlink" title="我们为什么要用到设计模式？"></a>我们为什么要用到设计模式？</h2><p>能用健壮的代码去解决具体的问题；<br>能用抽象的思维去面对复杂的系统；<br>能用工程化的思想去规划更大规模的业务；</p>
+<h2 id="面向对象编程和面向对象设计的五个原则："><a href="#面向对象编程和面向对象设计的五个原则：" class="headerlink" title="面向对象编程和面向对象设计的五个原则："></a>面向对象编程和面向对象设计的五个原则：</h2><p>单一功能原则<br>开放封闭原则（可扩展，而不可修改）<br>里氏替换原则（父类可以用子类替换，反过来则不行）<br>接口隔离原则（要为各个类建立它们需要的专用接口）<br>依赖反转原则（高层模块不应该依赖于低层模块，俩者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象）；</p>
+<h2 id="设计模式的核心思想是什么？"><a href="#设计模式的核心思想是什么？" class="headerlink" title="设计模式的核心思想是什么？"></a>设计模式的核心思想是什么？</h2><p>封装变化：将变化造成的影响最小化，将变与不变分离，确保变化的部分灵活、不变的部分稳定</p>
+<h2 id="设计模式有哪几种类型？分别是什么含义？"><a href="#设计模式有哪几种类型？分别是什么含义？" class="headerlink" title="设计模式有哪几种类型？分别是什么含义？"></a>设计模式有哪几种类型？分别是什么含义？</h2><p>创造型模式：封装了创建对象过程中的变化，将创建的过程抽离<br>结构型模式：封装了对象间组合方式的变化，灵活地表达对象间的配合与依赖关系<br>行为型模式：封装了对象的行为，确保更安全、更方便地对行为进行更改</p>
+<h2 id="JavaScript中常见的设计模式有哪些？"><a href="#JavaScript中常见的设计模式有哪些？" class="headerlink" title="JavaScript中常见的设计模式有哪些？"></a>JavaScript中常见的设计模式有哪些？</h2><p>创建型：<br>    1.工厂模式<br>    2.抽象工厂模式<br>    3.单例模式<br>    4.原型模式<br>结构型：<br>    5.装饰器模式<br>    6.适配器模式<br>    7.代理模式<br>行为型：<br>    8.策略模式<br>    9.状态模式<br>    10.观察者模式<br>    11.迭代器模式</p>
+<p>最后<br>这篇文章主要是对设计模式的学习的总结以及输出，加强理解以及记忆<br>主要学习自掘金修言大佬的设计模式小册</p>
 
   
   
@@ -516,7 +466,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=http://example.com/2021/02/09/README/>http://example.com/2021/02/09/README/</a></p>
+                <p>本文永久链接是：<a href=http://example.com/2021/02/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/>http://example.com/2021/02/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</a></p>
               
             
           </blockquote>
@@ -533,10 +483,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-02-09T14:04:40+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-02-18T16:21:49+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：Feb 9, 2021</p>
+    <p>更新于：Feb 18, 2021</p>
   </a>
 </div>
 
@@ -555,7 +505,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2021/02/09/README/&title=前端进阶之路 - 倔强的乌龟&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2021/02/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/&title= - 倔强的乌龟&summary="
           
           >
           
@@ -567,7 +517,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2021/02/09/README/&title=前端进阶之路 - 倔强的乌龟&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2021/02/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/&title= - 倔强的乌龟&summary="
           
           >
           
@@ -579,7 +529,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2021/02/09/README/&title=前端进阶之路 - 倔强的乌龟&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2021/02/18/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/&title= - 倔强的乌龟&summary="
           
           >
           
@@ -610,9 +560,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class="prev-next">
       
       
-        <a class='next' href='/2021/02/09/hello-world/'>
-          <p class='title'>Hello World<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</p>
+        <a class='next' href='/2021/02/09/README/'>
+          <p class='title'>前端进阶之路<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>前端进阶之路本系列是个人一些学习的笔记，大家想学习的话可以去看我下面的参看的资料。
+然后也有一些源码和源码解析。最后是造轮子，毕竟实践才是检验真理的唯一标准。不过造轮子不是一步而咎的事情，我也是...</p>
         </a>
       
     </div>
@@ -655,7 +606,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF"><span class="toc-text">前端进阶之路</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%A8%E5%88%B0%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%9F"><span class="toc-text">我们为什么要用到设计模式？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%92%8C%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%94%E4%B8%AA%E5%8E%9F%E5%88%99%EF%BC%9A"><span class="toc-text">面向对象编程和面向对象设计的五个原则：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">设计模式的核心思想是什么？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%9C%89%E5%93%AA%E5%87%A0%E7%A7%8D%E7%B1%BB%E5%9E%8B%EF%BC%9F%E5%88%86%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%E5%90%AB%E4%B9%89%EF%BC%9F"><span class="toc-text">设计模式有哪几种类型？分别是什么含义？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JavaScript%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F"><span class="toc-text">JavaScript中常见的设计模式有哪些？</span></a></li></ol>
     </div>
   </section>
 
@@ -673,8 +624,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <script>
   window.pdata={}
-  pdata.ispage=true;
-  pdata.postTitle="前端进阶之路";
+  pdata.ispage=false;
+  pdata.postTitle="";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   // header 这里无论是否开启pjax都需要
