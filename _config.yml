@@ -103,6 +103,6 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repository: git@github.com:a448206058/448206058.github.io.git
   branch: master
